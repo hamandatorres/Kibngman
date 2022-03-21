@@ -1,7 +1,7 @@
 body {
 	/* border: 2px black solid; */
 	/* background-color: aquamarine; */
-	display: block;
+	/* display: block; */
 	margin: auto;
 	text-align: center;
 }
@@ -28,4 +28,92 @@ h2 {
 img {
 	max-width: 100%;
 	height: auto;
+}
+div#first {
+	width: 350px;
+	height: auto;
+	margin: 50px auto 0;
+	padding: 50px;
+	/* background-color: #eee; */
+	/* color: #333; */
+	/* border: 2px solid #c2d6ff; */
+	/* border-radius: 40px 0 40px 0; */
+}
+input#fname {
+	background-image: url(../images/icon_name.png);
+	background-repeat: no-repeat;
+	background-position: 6px;
+	border: 1px solid #dadada;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 35px;
+	width: 310px;
+	height: 30px;
+	font-size: 14px;
+	box-shadow: 0 0 10px;
+	-webkit-box-shadow: 0 0 10px;
+	/* For I.E */
+	-moz-box-shadow: 0 0 10px;
+	/* For Mozilla Web Browser */
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	/* For I.E */
+	-moz-border-radius: 5px;
+	/* For Mozilla Web Browser */
+}
+input#message {
+	background-image: url(../images/icon_name.png);
+	background-repeat: no-repeat;
+	background-position: 6px;
+	border: 1px solid #dadada;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 35px;
+	width: 310px;
+	height: 60px;
+	font-size: 14px;
+	box-shadow: 0 0 10px;
+	-webkit-box-shadow: 0 0 10px;
+	/* For I.E */
+	-moz-box-shadow: 0 0 10px;
+	/* For Mozilla Web Browser */
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	/* For I.E */
+	-moz-border-radius: 5px;
+	/* For Mozilla Web Browser */
+}
+input#email {
+	background-image: url(../images/email.png);
+	background-repeat: no-repeat;
+	background-position: 6px;
+	border: 1px solid #dadada;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 35px;
+	width: 310px;
+	height: 30px;
+	font-size: 14px;
+	box-shadow: 0 0 10px;
+	-webkit-box-shadow: 0 0 10px;
+	/* For I.E */
+	-moz-box-shadow: 0 0 10px;
+	/* For Mozilla Web Browser */
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	/* For I.E */
+	-moz-border-radius: 5px;
+	/* For Mozilla Web Browser */
+}
+input#submit {
+	background-color: #29a92d;
+	border-radius: 5px;
+	border: none;
+	padding: 10px 25px;
+	color: #fff;
+	text-shadow: 1px 1px 1px #949494;
+	/* margin-left: 120px; */
+}
+input#submit:hover {
+	background-color: #37e13c;
 }
