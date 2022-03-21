@@ -1,7 +1,7 @@
 body {
 	/* border: 2px black solid; */
 	/* background-color: aquamarine; */
-	/* display: block; */
+	display: block;
 	margin: auto;
 	text-align: center;
 }
@@ -29,7 +29,7 @@ img {
 	max-width: 100%;
 	height: auto;
 }
-div#first {
+.first {
 	width: 350px;
 	height: auto;
 	margin: 50px auto 0;
@@ -39,7 +39,7 @@ div#first {
 	/* border: 2px solid #c2d6ff; */
 	/* border-radius: 40px 0 40px 0; */
 }
-input#fname {
+.fname {
 	background-image: url(../images/icon_name.png);
 	background-repeat: no-repeat;
 	background-position: 6px;
@@ -61,7 +61,7 @@ input#fname {
 	-moz-border-radius: 5px;
 	/* For Mozilla Web Browser */
 }
-input#message {
+.message {
 	background-image: url(../images/icon_name.png);
 	background-repeat: no-repeat;
 	background-position: 6px;
@@ -83,7 +83,7 @@ input#message {
 	-moz-border-radius: 5px;
 	/* For Mozilla Web Browser */
 }
-input#email {
+.email {
 	background-image: url(../images/email.png);
 	background-repeat: no-repeat;
 	background-position: 6px;
@@ -105,7 +105,7 @@ input#email {
 	-moz-border-radius: 5px;
 	/* For Mozilla Web Browser */
 }
-input#submit {
+.submit {
 	background-color: #29a92d;
 	border-radius: 5px;
 	border: none;
@@ -114,6 +114,6 @@ input#submit {
 	text-shadow: 1px 1px 1px #949494;
 	/* margin-left: 120px; */
 }
-input#submit:hover {
+.submit:hover {
 	background-color: #37e13c;
 }
