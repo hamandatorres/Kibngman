@@ -1,9 +1,80 @@
 body {
 	/* border: 2px black solid; */
-	/* background-color: aquamarine; */
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	background-color: #f2f5de;
 	display: block;
 	margin: auto;
 	text-align: center;
+	font-weight: 400;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+header {
+	background-color: white;
+	/* font-size: 100px; */
+}
+header::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.logo-top {
+	float: left;
+	width: 10%;
+	padding: 10px;
+}
+nav {
+	float: right;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav li {
+	display: inline-block;
+	margin-left: 70px;
+	/* margin-left: 0 35px; */
+	padding-top: 50px;
+	position: relative;
+}
+nav a {
+	color: #444;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+nav a:hover {
+	color: black;
+}
+nav a::before {
+	content: "";
+	display: block;
+	height: 5px;
+	width: 0%;
+	background-color: #444;
+
+	position: absolute;
+	top: 0;
+	transition: all ease-in-out 250ms;
+}
+nav a:hover::before {
+	width: 100%;
+}
+div {
+	padding: 5px;
+	background-color: #86e7b8;
+	max-width: 80%;
+	/* margin: 0 auto; */
+	text-align: center;
+	/* padding: 2px; */
+	/* margin: 5px; */
+	height: auto;
+	margin: 50px auto 0;
+	padding: 5px;
 }
 p {
 	/* border: 2px black solid; */
@@ -18,16 +89,18 @@ h2 {
 	/* background-color: chocolate; */
 }
 .logo {
-	width: 300px;
+	/* width: 100%; */
 	margin-left: auto;
 	margin-right: auto;
 	height: auto;
 	padding: 15px;
+	/* border-radius: 50%; */
 	/* border: 3px solid red; */
 }
 img {
-	max-width: 100%;
+	max-width: 80%;
 	height: auto;
+	/* border-radius: 50%; */
 }
 .first {
 	width: 350px;
