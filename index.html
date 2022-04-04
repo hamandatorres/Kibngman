@@ -9,22 +9,23 @@
   </head>
   <body>
     <header>
-    <div class="container">
+    <section class="container">
       <img class="logo-top" src="KHL_logo.jpg" alt="Kingman Home and Land Realty Logo" />
       <input type="checkbox" id="nav-toggle" class="nav-toggle"/>
       <nav>
         <ul>
-        <li><a href="#">Property Searches</a></li>
-        <li><a href="#">Location</a></li>
-        <li><a href="#">Buying or Selling</a></li>
-        <li><a href="#">Our Team</a></li>
+        <li><a href="#property-box">Property Searches</a></li>
+        <li><a href="#location-box">Location</a></li>
+        <li><a href="#buying-box">Buying or Selling</a></li>
+        <li><a href="#team-box">Our Team</a></li>
       </ul>
       </nav>
       <label for="nav-toggle" class="nav-toggle-label">
       <span></span>
       </label>
-    </div>
+    </section>
   </header>
+  <span class="anchor-property" id="property-box"></span>
     <div class="property-box">
       <h2>Property Searches</h2>
     <p>
@@ -33,6 +34,7 @@
       special concerns that you  might have in finding your dream house and we will work together to achieve it. 
     </p>
   </div>
+  <span class="anchor" id="location-box"></span>
   <div class="location-box">
     <h2>
       Location
@@ -43,6 +45,7 @@
       Mohave County.
     </p>
   </div>
+  <span class="anchor" id="buying-box"></span>
   <div class="buying-box">
     <h2>
       Buying or Selling
@@ -53,12 +56,13 @@
       but 17 years of experience can help you take that step with confidence.
     </p>
   </div>
+  <span class="anchor" id="team-box"></span>
   <div class="team-box">
     <h1>Our Team</h1>
     <h2>
       Amanda Johnson
     </h2>
-    <div class="logo"><img src="amanda_johnson_photo.JPEG" alt="Picture of Amanda Johnson" /></div>
+    <img class="logo" src="amanda_johnson_photo.JPEG" alt="Picture of Amanda Johnson" />
     <p>Owner/Broker</p>
     <p>
       Amanda has 17 years of experience in residential, home and land real
@@ -66,7 +70,7 @@
       guide you in the process of finding your dream home.
     </p>
   </div>
-    <div class="first">
+    <section class="first">
       <h1>Contact Us</h1>
     <form action="https://formsubmit.co/hamandatorres@gmail.com" method="POST">
       <input type="hidden" name="_template" value="table">
@@ -76,6 +80,6 @@
       <input class="message" placeholder="Tell us more!" type="text" name="text">
       <input class="submit" type="submit" value="submit">
     </form>
-    </div>
+    </section>
   </body>
 </html>
